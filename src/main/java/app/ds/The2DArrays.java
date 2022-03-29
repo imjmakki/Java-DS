@@ -11,8 +11,8 @@ public class The2DArrays {
             }
         }
         board[0][0] = '0';
-        board[0][1] = '0';
-        board[0][2] = '0';
+        board[1][0] = '0';
+        board[2][0] = '0';
         System.out.println(Arrays.deepToString(board));
     }
 }
