@@ -10,5 +10,6 @@ public class TheLists {
         colors.add("Black");
         colors.add("Lightblue");
         System.out.println(colors);
+        System.out.println(colors.size());
     }
 }
