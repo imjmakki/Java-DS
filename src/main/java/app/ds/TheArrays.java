@@ -23,5 +23,7 @@ public class TheArrays {
         for(Integer i = colors.length - 1; i >= 0; i--) {
             System.out.println(colors[i]);
         }
+
+        System.out.println(colors.length);
     }
 }
