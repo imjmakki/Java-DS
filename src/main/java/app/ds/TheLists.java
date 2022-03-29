@@ -9,5 +9,7 @@ public class TheLists {
         colors.add("Grey");
         colors.add("Black");
         colors.add("Lightblue");
+        colors.add(1);
+        colors.add(new Object());
     }
 }
