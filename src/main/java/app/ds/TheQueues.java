@@ -10,8 +10,9 @@ public class TheQueues {
         supermarket.add(new Person("Hassan", 20));
         supermarket.add(new Person("Nabeel", 19));
         supermarket.add(new Person("Ali", 11));
-    }
-    static record Person(String name, int age) {
 
+        System.out.println(supermarket.peek());
     }
+
+    static record Person(String name, int age) {}
 }
