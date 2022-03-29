@@ -9,6 +9,8 @@ public class TheQueues {
         LinkedList<Person> linkedList = new LinkedList<>();
         linkedList.add(new Person("Dan", 18));
         linkedList.add(new Person("Alexa", 21));
+        linkedList.addLast(new Person("Ali", 18));
+        linkedList.addFirst(new Person("Ali", 11));
         ListIterator<Person> personListIterator = linkedList.listIterator();
         while (personListIterator.hasNext()) {
             System.out.println(personListIterator.next());
