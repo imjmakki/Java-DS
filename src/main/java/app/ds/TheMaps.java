@@ -7,6 +7,7 @@ public class TheMaps {
     public static void main(String[] args) {
         Map<Integer, Person> map = new HashMap<>();
         map.put(1, new Person("Ali"));
+        map.put(2, new Person("Alex"));
     }
 
     record Person(String name) {}
