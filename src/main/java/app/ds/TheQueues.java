@@ -13,6 +13,12 @@ public class TheQueues {
         while (personListIterator.hasNext()) {
             System.out.println(personListIterator.next());
         }
+
+        System.out.println();
+
+        while (personListIterator.hasPrevious()) {
+            System.out.println(personListIterator.previous());
+        }
     }
 
     private static void queues() {
