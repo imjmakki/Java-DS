@@ -1,5 +1,7 @@
 package app.ds;
 
+import java.util.Arrays;
+
 public class The2DArrays {
     public static void main(String[] args) {
         char[][] board = new char[3][3];
@@ -8,6 +10,6 @@ public class The2DArrays {
                 board[i][j] = '-';
             }
         }
-        System.out.println();
+        System.out.println(Arrays.deepToString(board));
     }
 }
