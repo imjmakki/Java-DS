@@ -27,6 +27,8 @@ public class TheMaps {
         }));
         System.out.println();
         System.out.println(map.getOrDefault(3, new Person("default")));
+        System.out.println();
+        System.out.println(map.values());
     }
 
     record Person(String name) {}
