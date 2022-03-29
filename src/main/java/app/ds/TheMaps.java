@@ -8,6 +8,7 @@ public class TheMaps {
         Map<Integer, Person> map = new HashMap<>();
         map.put(1, new Person("Ali"));
         map.put(2, new Person("Alex"));
+        map.put(3, new Person("Eli"));
     }
 
     record Person(String name) {}
