@@ -6,6 +6,7 @@ import java.util.Map;
 public class TheMaps {
     public static void main(String[] args) {
         Map<Person, Diamond> map = new HashMap<>();
+        map.put(new Person("Diana"), new Diamond("African Diamond"));
     }
 
     private static void maps() {
