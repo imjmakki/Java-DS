@@ -13,5 +13,9 @@ public class TheLists {
         System.out.println(colors.size());
         System.out.println(colors.contains("Black"));
         System.out.println(colors.contains("Green"));
+
+        for(String color : colors) {
+            System.out.println(color);
+        }
     }
 }
