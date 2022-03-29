@@ -21,8 +21,8 @@ public class TheMaps {
         map.entrySet()
                 .forEach(x -> System.out.println(x.getKey() + " " + x.getValue()));
         System.out.println();
-        map.forEach(((integer, person) -> {
-
+        map.forEach(((key, person) -> {
+            System.out.println(key + " - " + person);
         }));
     }
 
