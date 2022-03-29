@@ -19,5 +19,9 @@ public class TheLists {
         }
 
         colors.forEach(System.out::println);
+
+        for(int i = 0; i < colors.size(); i++) {
+            System.out.println(colors.get(i));
+        }
     }
 }
