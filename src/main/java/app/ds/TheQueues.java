@@ -5,6 +5,7 @@ import java.util.Queue;
 
 public class TheQueues {
     public static void main(String[] args) {
+        LinkedList<Person> linkedList = new LinkedList<>();
     }
 
     private static void queues() {
