@@ -8,6 +8,7 @@ public class TheQueues {
         LinkedList<Person> linkedList = new LinkedList<>();
         linkedList.add(new Person("Dan", 18));
         linkedList.add(new Person("Alexa", 21));
+        linkedList.listIterator();
     }
 
     private static void queues() {
