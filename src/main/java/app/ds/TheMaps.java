@@ -11,6 +11,7 @@ public class TheMaps {
         map.put(3, new Person("Eli"));
         System.out.println(map);
         System.out.println(map.size());
+        System.out.println(map.get(2));
     }
 
     record Person(String name) {}
