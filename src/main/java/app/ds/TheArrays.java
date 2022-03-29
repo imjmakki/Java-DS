@@ -19,5 +19,9 @@ public class TheArrays {
         for(Integer i = 0; i < colors.length; i++) {
             System.out.println(colors[i]);
         }
+
+        for(Integer i = colors.length; i >= 0; i++) {
+            System.out.println(colors[i]);
+        }
     }
 }
