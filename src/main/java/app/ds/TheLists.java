@@ -11,5 +11,7 @@ public class TheLists {
         colors.add("Lightblue");
         System.out.println(colors);
         System.out.println(colors.size());
+        System.out.println(colors.contains("Black"));
+        System.out.println(colors.contains("Green"));
     }
 }
