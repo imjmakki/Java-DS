@@ -1,6 +1,7 @@
 package app.ds;
 
 import java.util.LinkedList;
+import java.util.ListIterator;
 import java.util.Queue;
 
 public class TheQueues {
@@ -8,7 +9,7 @@ public class TheQueues {
         LinkedList<Person> linkedList = new LinkedList<>();
         linkedList.add(new Person("Dan", 18));
         linkedList.add(new Person("Alexa", 21));
-        linkedList.listIterator();
+        ListIterator<Person> personListIterator = linkedList.listIterator();
     }
 
     private static void queues() {
