@@ -9,6 +9,7 @@ public class TheSets {
         balls.add(new Ball("Blue"));
         balls.add(new Ball("Brown"));
         balls.add(new Ball("Grey"));
+        balls.forEach();
     }
 
     record Ball(String color) {}
