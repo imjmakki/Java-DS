@@ -25,6 +25,7 @@ public class TheMaps {
         map.forEach(((key, person) -> {
             System.out.println(key + " - " + person);
         }));
+        System.out.println();
         System.out.println(map.getOrDefault(3, new Person("default")));
     }
 
