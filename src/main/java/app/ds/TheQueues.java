@@ -7,6 +7,7 @@ public class TheQueues {
     public static void main(String[] args) {
         LinkedList<Person> linkedList = new LinkedList<>();
         linkedList.add(new Person("Dan", 18));
+        linkedList.add(new Person("Alexa", 21));
     }
 
     private static void queues() {
