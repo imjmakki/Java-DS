@@ -10,6 +10,9 @@ public class The2DArrays {
                 board[i][j] = '-';
             }
         }
+        board[0][0] = '0';
+        board[0][1] = '0';
+        board[0][2] = '0';
         System.out.println(Arrays.deepToString(board));
     }
 }
