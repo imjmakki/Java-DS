@@ -10,6 +10,7 @@ public class TheMaps {
         map.put(2, new Person("Alex"));
         map.put(3, new Person("Eli"));
         System.out.println(map);
+        System.out.println(map.size());
     }
 
     record Person(String name) {}
