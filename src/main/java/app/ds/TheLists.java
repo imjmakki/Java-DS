@@ -5,12 +5,6 @@ import java.util.List;
 
 public class TheLists {
     public static void main(String[] args) {
-        List<String> colorsUnmodified = List.of(
-                "yellow",
-                "brown"
-        );
-        colorsUnmodified.add("purple");
-
         List<String> colors = new ArrayList<>();
         colors.add("Grey");
         colors.add("Black");
