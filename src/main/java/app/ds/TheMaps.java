@@ -25,6 +25,7 @@ public class TheMaps {
         map.forEach(((key, person) -> {
             System.out.println(key + " - " + person);
         }));
+        System.out.println(map.get(3));
     }
 
     record Person(String name) {}
