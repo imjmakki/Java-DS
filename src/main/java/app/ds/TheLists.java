@@ -6,8 +6,8 @@ import java.util.List;
 public class TheLists {
     public static void main(String[] args) {
         List colors = new ArrayList();
-        colors.add("");
-        colors.add("");
-        colors.add("");
+        colors.add("Grey");
+        colors.add("Black");
+        colors.add("Lightblue");
     }
 }
