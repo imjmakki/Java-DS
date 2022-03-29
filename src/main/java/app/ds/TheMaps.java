@@ -16,7 +16,8 @@ public class TheMaps {
         System.out.println(map.entrySet());
         System.out.println(map.keySet());
         map.entrySet().forEach(System.out::println);
-        map.entrySet().forEach(x -> System.out.println(x.getKey() + " " + x.getValue()));
+        map.entrySet()
+                .forEach(x -> System.out.println(x.getKey() + " " + x.getValue()));
     }
 
     record Person(String name) {}
