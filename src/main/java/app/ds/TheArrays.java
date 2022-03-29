@@ -20,7 +20,7 @@ public class TheArrays {
             System.out.println(colors[i]);
         }
 
-        for(Integer i = colors.length; i >= 0; i++) {
+        for(Integer i = colors.length - 1; i >= 0; i--) {
             System.out.println(colors[i]);
         }
     }
