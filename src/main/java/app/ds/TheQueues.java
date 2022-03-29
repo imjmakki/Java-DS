@@ -11,8 +11,10 @@ public class TheQueues {
         supermarket.add(new Person("Nabeel", 19));
         supermarket.add(new Person("Ali", 11));
 
+        System.out.println(supermarket.size());
         System.out.println(supermarket.peek());
         System.out.println(supermarket.poll());
+        System.out.println(supermarket.size());
     }
 
     static record Person(String name, int age) {}
