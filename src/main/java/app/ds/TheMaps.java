@@ -13,6 +13,7 @@ public class TheMaps {
         System.out.println(map.size());
         System.out.println(map.get(2));
         System.out.println(map.containsKey(4));
+        System.out.println(map.entrySet());
     }
 
     record Person(String name) {}
