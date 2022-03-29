@@ -10,6 +10,9 @@ public class TheQueues {
         linkedList.add(new Person("Dan", 18));
         linkedList.add(new Person("Alexa", 21));
         ListIterator<Person> personListIterator = linkedList.listIterator();
+        while (personListIterator.hasNext()) {
+            System.out.println();
+        }
     }
 
     private static void queues() {
