@@ -18,6 +18,9 @@ public class TheMaps {
         map.entrySet().forEach(System.out::println);
         map.entrySet()
                 .forEach(x -> System.out.println(x.getKey() + " " + x.getValue()));
+        map.forEach(((integer, person) -> {
+
+        }));
     }
 
     record Person(String name) {}
