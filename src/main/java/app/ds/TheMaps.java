@@ -15,9 +15,12 @@ public class TheMaps {
         System.out.println(map.containsKey(4));
         System.out.println(map.entrySet());
         System.out.println(map.keySet());
+        System.out.println();
         map.entrySet().forEach(System.out::println);
+        System.out.println();
         map.entrySet()
                 .forEach(x -> System.out.println(x.getKey() + " " + x.getValue()));
+        System.out.println();
         map.forEach(((integer, person) -> {
 
         }));
