@@ -15,6 +15,7 @@ public class TheMaps {
         System.out.println(map.containsKey(4));
         System.out.println(map.entrySet());
         System.out.println(map.keySet());
+        map.remove(3);
         System.out.println();
         map.entrySet().forEach(System.out::println);
         System.out.println();
