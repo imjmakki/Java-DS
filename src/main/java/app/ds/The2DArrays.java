@@ -10,6 +10,13 @@ public class The2DArrays {
                 board[i][j] = '-';
             }
         }
+
+        char[][] boardTwo = new char[][] {
+                new char[] {
+
+                }
+        };
+
         board[0][0] = '0';
         board[1][0] = '0';
         board[2][0] = '0';
