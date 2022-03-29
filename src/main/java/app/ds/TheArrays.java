@@ -10,5 +10,14 @@ public class TheArrays {
 
         System.out.println(Arrays.toString(colors));
         System.out.println(colors[0]);
+
+        colors[2] = "Red";
+        System.out.println(Arrays.toString(colors));
+
+        Integer[] number = {100, 250};
+
+        for(Integer i = 0; i < colors.length; i++) {
+            System.out.println(colors[i]);
+        }
     }
 }
