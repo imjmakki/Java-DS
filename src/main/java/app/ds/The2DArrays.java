@@ -21,6 +21,7 @@ public class The2DArrays {
                 new char[] {'0', '-', '-'},
                 new char[] {'0', '-', '-'}
         };
+        System.out.println(Arrays.deepToString(boardTwo));
 
     }
 }
