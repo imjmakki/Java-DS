@@ -14,6 +14,7 @@ public class TheMaps {
         System.out.println(map.get(2));
         System.out.println(map.containsKey(4));
         System.out.println(map.entrySet());
+        System.out.println(map.keySet());
     }
 
     record Person(String name) {}
