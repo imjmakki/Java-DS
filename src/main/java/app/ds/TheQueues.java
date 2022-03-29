@@ -5,17 +5,20 @@ import java.util.Queue;
 
 public class TheQueues {
     public static void main(String[] args) {
-        Queue<Person> supermarket = new LinkedList<>();
-        supermarket.add(new Person("MJ", 26));
-        supermarket.add(new Person("Hassan", 20));
-        supermarket.add(new Person("Nabeel", 19));
-        supermarket.add(new Person("Ali", 11));
+    }
 
-        System.out.println(supermarket.size());
-        System.out.println(supermarket.peek());
-        System.out.println(supermarket.poll());
-        System.out.println(supermarket.size());
-        System.out.println(supermarket.peek());
+    private static void queues() {
+        Queue<Person> queue = new LinkedList<>();
+        queue.add(new Person("MJ", 26));
+        queue.add(new Person("Hassan", 20));
+        queue.add(new Person("Nabeel", 19));
+        queue.add(new Person("Ali", 11));
+
+        System.out.println(queue.size());
+        System.out.println(queue.peek());
+        System.out.println(queue.poll());
+        System.out.println(queue.size());
+        System.out.println(queue.peek());
     }
 
     static record Person(String name, int age) {}
