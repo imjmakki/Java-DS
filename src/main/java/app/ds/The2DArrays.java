@@ -8,5 +8,6 @@ public class The2DArrays {
                 board[i][j] = '-';
             }
         }
+        System.out.println();
     }
 }
