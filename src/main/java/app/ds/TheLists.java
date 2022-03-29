@@ -17,5 +17,7 @@ public class TheLists {
         for(String color : colors) {
             System.out.println(color);
         }
+
+        colors.forEach(System.out::println);
     }
 }
