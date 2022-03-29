@@ -5,6 +5,9 @@ import java.util.Map;
 
 public class TheMaps {
     public static void main(String[] args) {
+    }
+
+    private static void maps() {
         Map<Integer, Person> map = new HashMap<>();
         map.put(1, new Person("Ali"));
         map.put(2, new Person("Alex"));
