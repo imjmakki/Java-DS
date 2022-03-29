@@ -25,5 +25,12 @@ public class TheArrays {
         }
 
         System.out.println(colors.length);
+
+        //Enhanced for loop
+        for(String color : colors) {
+            System.out.println(color);
+        }
+
+        Arrays.stream(colors).forEach(System.out::println);
     }
 }
