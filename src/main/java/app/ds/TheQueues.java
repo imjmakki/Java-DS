@@ -11,7 +11,7 @@ public class TheQueues {
         linkedList.add(new Person("Alexa", 21));
         ListIterator<Person> personListIterator = linkedList.listIterator();
         while (personListIterator.hasNext()) {
-            System.out.println();
+            System.out.println(personListIterator.next());
         }
     }
 
