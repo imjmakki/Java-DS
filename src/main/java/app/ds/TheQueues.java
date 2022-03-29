@@ -15,6 +15,7 @@ public class TheQueues {
         System.out.println(supermarket.peek());
         System.out.println(supermarket.poll());
         System.out.println(supermarket.size());
+        System.out.println(supermarket.peek());
     }
 
     static record Person(String name, int age) {}
