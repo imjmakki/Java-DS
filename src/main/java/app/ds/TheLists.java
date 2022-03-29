@@ -5,11 +5,10 @@ import java.util.List;
 
 public class TheLists {
     public static void main(String[] args) {
-        List colors = new ArrayList();
+        List<String> colors = new ArrayList<>();
         colors.add("Grey");
         colors.add("Black");
         colors.add("Lightblue");
-        colors.add(1);
-        colors.add(new Object());
+        System.out.println(colors);
     }
 }
